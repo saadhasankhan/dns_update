@@ -1,14 +1,14 @@
 ## Who am I and why I call myself route53_utils
 
 
-May be when I grow up, I will have childrene, but right now I am a single tool, ```dns_update```, that will let you add, create and update A and CNAME records in ops.cloud.cengage.com.
+May be when I grow up, I will have children, but right now I am a single tool, ```dns_update```, that will let you add, create and update A and CNAME records in ops.cloud.cengage.com.
 
 I install as a utility with pip.
 
 I look like this:
 
 ~~~~
-MABOSSKHAN-M1:evergreen skhan$ dns_update --help
+MABOSSKHAN-M1:skhan$ dns_update --help
  usage: dns_update [-h] -e ENVIRONMENT -n NAME -v VALUE -a
                   {CREATE,DELETE,UPSERT} -t {A,CNAME} [--TTL TTL]
 
