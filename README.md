@@ -38,5 +38,5 @@ ____________
 Install with pip
 
 - git clone
-- in the cloned directory execute ```pip install```
-- That should work but you should probably do it in a virtualenv.
+- in clone directory ```python3.7 -m venv venv```
+- in the cloned directory execute ```python setup.py install```

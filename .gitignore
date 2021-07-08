@@ -12,3 +12,4 @@
 
 # virtual environment
 venv/
+build/
