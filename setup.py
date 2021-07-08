@@ -14,7 +14,7 @@ setup(name='route53_utils',
       author_email='saad.khan@cengage.com',
       license='MIT',
       packages=['route53_utils'],
-      intall_requires=[
+      install_requires=[
           'boto3'
       ],
       zip_safe=False,
