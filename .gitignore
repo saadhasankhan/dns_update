@@ -9,3 +9,6 @@
 
 # pycharm project files
 .idea/
+
+# virtual environment
+venv/
