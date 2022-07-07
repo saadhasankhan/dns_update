@@ -1,10 +1,3 @@
-"""
-
-Created on June 28, 2019
-
-@author: skhan
-
-"""
 import argparse
 import boto3
 
@@ -23,7 +16,7 @@ def main():
     required_args = parser.parse_args()
     optional_args = parser.parse_args()
 
-    HostedZoneId = "Z10N775N1B7JYL"  # ops.cloud.cengage.com
+    HostedZoneId = "Z0790951MZDAZSEVOWI3" # litteraeducation.com
 
     session = boto3.Session(profile_name=required_args.environment)
     client = session.client('route53')
