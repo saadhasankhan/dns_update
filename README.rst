@@ -3,7 +3,7 @@ route53_utils
 
 Instructions:
 
-(route53_utils) MABOSSKHAN-M1:route53_utils skhan$ python3 dns_update.py --help
+python3 dns_update.py --help
 usage: dns_update.py [-h] -e ENVIRONMENT -n NAME -v VALUE -a
                      {CREATE,DELETE,UPSERT} -t {A,CNAME} [--TTL TTL]
 

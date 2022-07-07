@@ -9,9 +9,9 @@ def readme():
 setup(name='route53_utils',
       version='0.1',
       description='Created, deletes and updates A host an CNAME records in route 53 ops.cloud.cengage.com domain',
-      url='http://stash.corp.web:7990/projects/CLOUD/repos/route53_utils/browse',
+      url='https://github.com/saadhasankhan/route53_utils',
       author='skhan',
-      author_email='saad.khan@cengage.com',
+      author_email='saadhasankhan@gmail.com',
       license='MIT',
       packages=['route53_utils'],
       install_requires=[
